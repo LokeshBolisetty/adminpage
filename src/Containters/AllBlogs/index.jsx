@@ -7,7 +7,7 @@ class AllBlogs extends Component {
   render() {
     var returner = [];
 
-    for (let i = 0; i < this.props.cards; i++) {
+    for (let i = this.props.cards - 1; i >= 0; i--) {
       returner.push(<EachBlog index={i} key={i} token={this.props.token} />);
     }
     return <div>{returner}</div>;
