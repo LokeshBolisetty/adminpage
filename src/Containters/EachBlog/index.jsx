@@ -49,11 +49,13 @@ class EachBlog extends Component {
       })
       .then((res) => {
         console.log(res);
+      alert("Deleted Successfully");
       })
       .catch((err) => {
         console.log(err);
+      alert("Sorry was not able to delete. Try logging out and logging in");
       });
-    alert("Deleted Successfully");
+    
     /*document.getElementById("Title").innerHTML = `Deleted succesfully`;
     /*alert(Title.value);
     alert("Blog deted succesfully. Refresh the page to see changes.");*/
