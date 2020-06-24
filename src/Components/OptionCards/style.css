@@ -1,0 +1,10 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 10px;
+}
+.card {
+  image-resolution: 273px, 183px;
+  height: 28em;
+}

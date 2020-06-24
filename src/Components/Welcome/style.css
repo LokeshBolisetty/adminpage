@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+.Welcome {
+  background-image: url("https://images.unsplash.com/photo-1527352675495-d54e8f102689?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  margin: 0px auto;
+  text-align: center;
+  font-family: "Sriracha", cursive;
+  height: 15cm;
+  width: 100%;
+  padding-top: 3cm;
+}
+.Welcome p {
+  font-size: 50px;
+  color: black;
+}
+@media only screen and (min-width: 1200px) {
+  .Welcome {
+    background-image: url("https://images.unsplash.com/photo-1527352675495-d54e8f102689?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-family: "Sriracha", cursive;
+    height: 18cm;
+    padding-top: 7cm;
+  }
+}

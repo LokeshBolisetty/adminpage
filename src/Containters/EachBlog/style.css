@@ -1,0 +1,11 @@
+.card {
+  text-align: center;
+  margin: 5% 2px;
+  border: black 1px solid;
+  height: fit-content;
+  min-height: 4cm;
+}
+
+.btn {
+  justify-content: space-around;
+}

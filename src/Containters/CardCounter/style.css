@@ -1,0 +1,11 @@
+/*.Cards {
+  /*justify-content: center;*/
+/*display: flex;*/
+.text {
+  text-align: center;
+  margin: 20px 0;
+}
+.flex-container {
+  flex-wrap: wrap;
+  display: flex;
+}
